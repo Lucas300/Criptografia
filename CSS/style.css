@@ -1,0 +1,49 @@
+body {
+      background: url('../img/fundo.jpeg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.85);
+      border: none;
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    }
+    .card-body {
+      padding: 2rem;
+    }
+    h4, h6 {
+      color: #3a3a3a;
+      font-weight: 700;
+    }
+    .form-label {
+      color: #4e54c8;
+      font-weight: 600;
+    }
+    .form-control {
+      border-radius: 0.75rem;
+      border: 1px solid #4e54c8;
+      background: #f7f8fa;
+      transition: border-color 0.2s;
+    }
+    .form-control:focus {
+      border-color: #8f94fb;
+      box-shadow: 0 0 0 0.2rem rgba(142, 148, 251, 0.25);
+    }
+    .btn-primary {
+      background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+      border: none;
+      border-radius: 1rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 16px rgba(142, 148, 251, 0.15);
+      transition: background 0.2s;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(90deg, #8f94fb 0%, #4e54c8 100%);
+    }
+    #resultado {
+      font-size: 1.2rem;
+      color: #4e54c8;
+      font-weight: 500;
+      letter-spacing: 2px;
+    }
